@@ -12,13 +12,13 @@ var lists = (function(){
     place: ["Abbey", "Arms", "Bridge", "Brook", "Canyon", "Castle", "Close", "Common", "Corner", "Cove", "Eves", "Farm", "Field", "Gate", "Garden", "Green", "Hall", "Hearth", "Haven", "Hollow", "House", "Market", "Hill", "Hotel", "Inn", "Island", "Mountain", "Oaks", "Palace", "Path", "Port", "River", "Room", "Spring", "Square", "Stable", "Tavern", "Theatre", "Valley", "Village", "Wharf", "Woods", "Yard"],
     city: ["Bath", "Bermondsey", "Bristol", "Brixton", "Cambridge", "Camden", "Canterbury", "Cardiff", "Chelsea", "Clapham", "Cockfosters", "Coventry", "Cumbria", "Dublin", "Edinburgh", "Essex", "Exmouth", "Glasgow", "Gloucester", "Hackney", "Islington", "Kensington", "Lancaster", "Leeds", "Liverpool", "London", "Manchester", "Mayfair", "Newcastle", "Norfolk", "Nottingham", "Oxford", "Plymouth", "Portsmouth", "Shoreditch", "Soho", "Surrey", "Sussex", "Tottenham", "Wales", "Wellington", "Wenlock", "Westminster", "Winchester", "Yorkshire"],
     formula: ["city", "city noun", "city place", "describer place", "describer profession", "famousPerson", "noun", "noun noun", "number noun", "number profession", "place", "profession", "profession city", "profession noun", "profession profession"]
-  }
+  };
 
   return {
     random: function(list) {
               var index = Math.floor(Math.random() * pubWords[list].length);
               return pubWords[list][index];
             }
-  }
+  };
 
 }());

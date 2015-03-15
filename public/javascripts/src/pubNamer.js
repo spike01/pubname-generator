@@ -8,5 +8,5 @@ var pubNamer = (function(){
       });
       return formula.makeName(randomFormula, pubWords);
     }
-  }
+  };
 }());
